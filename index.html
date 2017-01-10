@@ -265,10 +265,6 @@
     <!-- Work -->
     <section class="section-wrap bg-light pb-mdm-50 pb-130" id="work">
       <div class="container">
-    <!-- <section class="section-wrap works-grid-3-col-wide pb-0" id="work">
-
-      <div class="container-fluid"> -->
-
         <div class="row heading">
           <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3">
             <h2 class="text-center bottom-line">Work</h2>
@@ -596,11 +592,7 @@
         </div>
       </div>
     </section> <!-- end contact -->
-
-
-    <!-- Google Map -->
-    <div id="google-map" class="gmap" data-address="V Tytana St, Manila, Philippines"></div>
-
+    
 
     <!-- Footer -->
     <footer class="footer minimal bg-dark">
@@ -640,49 +632,8 @@
   <!-- jQuery Scripts -->
   <script type="text/javascript" src="js/jquery.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="http://maps.google.com/maps/api/js"></script>
-  <script type="text/javascript" src="js/gmap3.js"></script>
   <script type="text/javascript" src="js/plugins.js"></script>
   <script type="text/javascript" src="js/scripts.js"></script>
-
-  <!-- Google Map -->
-  <script type="text/javascript">
-    $(document).ready( function(){
-
-      var gmapDiv = $("#google-map");
-      var gmapMarker = gmapDiv.attr("data-address");
-
-      gmapDiv.gmap3({
-        zoom: 16,
-        address: gmapMarker,
-        oomControl: true,
-        navigationControl: true,
-        scrollwheel: false,
-        styles: [
-          {
-          "featureType":"all",
-          "elementType":"all",
-            "stylers":[
-              { "saturation":"-70" }
-            ]
-        }]
-      })
-      .marker({
-        address: gmapMarker,
-        icon: "img/map_pin.png"
-      })
-      .infowindow({
-        content: "Amir's Address"
-      })
-      .then(function (infowindow) {
-        var map = this.get(0);
-        var marker = this.get(1);
-        marker.addListener('click', function() {
-          infowindow.open(map, marker);
-        });
-      });
-    });
-  </script>
 
 </body>
 </html>
