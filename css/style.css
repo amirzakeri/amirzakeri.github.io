@@ -311,13 +311,13 @@ p {
     line-height: 60px; }
 
 .navbar-header {
-  width: 28%; }
+  width: 30%; }
 
 .nav-wrap {
-  width: 44%; }
+  width: 40%; }
 
 .menu-socials {
-  width: 28%;
+  width: 30%;
   float: right;
   padding: 0 15px; }
   .menu-socials ul {
@@ -339,7 +339,7 @@ p {
     border-color: #bfa67a; }
 
 .logo-container {
-  padding: 0 15px;
+  padding: 0 25px;
   float: left; }
 
 .logo-wrap {
