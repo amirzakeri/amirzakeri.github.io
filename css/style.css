@@ -260,7 +260,7 @@ p {
 /* Navigation Onepage
 /*-------------------------------------------------------*/
 .nav-type-1 .container-fluid {
-  padding: 0 50px; }
+  padding: 0 15px; }
 
 .navbar {
   margin-bottom: 0;
@@ -311,14 +311,13 @@ p {
     line-height: 60px; }
 
 .navbar-header {
-  width: 32%;
-  padding-right: 15px; }
+  width: 28%; }
 
 .nav-wrap {
-  width: 48%; }
+  width: 44%; }
 
 .menu-socials {
-  width: 20%;
+  width: 28%;
   float: right;
   padding: 0 15px; }
   .menu-socials ul {
@@ -1259,7 +1258,7 @@ a.logo-link {
     float: left; }
 
   a.logo-link {
-    font-size: 2.0em; } }
+    font-size: 1.9em; } }
 @media (min-width: 1200px) {
   .col-lg-5ths {
     width: 20%;
